@@ -1,0 +1,93 @@
+:root {
+    --navbar-height: 70px;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(231, 222, 222);
+    font-family: 'Roboto', sans-serif;
+
+  }
+  /*NAVBAR*/
+  
+  a {
+    text-decoration: none;
+  }
+  li {
+    list-style: none;
+  }
+  .navbar {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    height: var(--navbar-height);
+    padding: 20px;
+    background-color: #1f1e28;
+    color: #c8d2db;
+  }
+  .nav-links a {
+    color: #fff;
+  }
+  .logo {
+    font-size: 32px;
+  }
+  .menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+  }
+  .menu li:hover {
+    background-color: #51505c;
+    border-radius: 5px;
+    transition: 0.3s ease;
+    cursor: pointer;
+    color: black;
+  }
+  .menu li {
+    padding: 5px 14px;
+  }
+  #checkbox_toggle {
+    display: none;
+  }
+  .hamburger {
+    display: none;
+    font-size: 24px;
+  }
+  .login_register button {
+    font-size: 16px;
+    color: #ecf7ff;
+    background: red;
+    width: 130px;
+    height: 40px;
+    border: none;
+    background: inherit;
+    cursor: pointer;
+    font-weight: bolder;
+    border-radius: 5px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  .login_register .login {
+    color: #ecf7ff;
+    border: 2px solid dodgerblue;
+  }
+  .login_register .login:hover {
+    background-color: dodgerblue;
+    transition: 0.3s ease;
+  }
+  .login_register .register {
+    background: dodgerblue;
+  }
+  .login_register .register:hover {
+    background: rgb(93, 174, 255);
+  }
+  

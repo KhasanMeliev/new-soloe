@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register page | Sololearn</title>
+    <link rel = "icon" href = 
+    "https://blob.sololearn.com/avatars/sololearn.png" 
+            type = "image/x-icon">
+    <link rel="stylesheet" href="../css/register.css" />
+    <link rel="stylesheet" href="../css/login.css" />
+    <link rel="stylesheet" href="../css/media.css" />
+    <link rel="stylesheet" href="../css/navbar.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <%- include('navbar.ejs') %>
+    <div class="register_page">
+      <div class="box">
+        <h1>Sign Up</h1>
+        <div class="form">
+          <label>Email</label>
+          <input type="email" name="email" id="email" />
+          <label>Name</label>
+          <input type="text" name="text" id="name" />
+          <label>Password</label>
+          <input type="password" name="password" id="password" />
+          <button onclick="submit()">Sign up</button>
+        </div>
+        <div class="lines">
+          <div class="line1"></div>
+          <p>or</p>
+          <div class="line2"></div>
+        </div>
+        <div class="buttons">
+          <button class="google_button">
+            <i class="fa fa-google"></i>Google
+          </button>
+          <button class="facebook_button">
+            <i class="fa fa-facebook"></i>Facebook
+          </button>
+        </div>
+        <div class="texts">
+          <p>Already have an account</p>
+          <p class="txt2">
+            <a href="/login" style="color: #4267b2">Sign in</a>
+          </p>
+        </div>
+        <div class="outputTexts">
+            <h2 id="output"></h2>
+        <p id="profile" onclick="Readyprofile()"><a href="/profile" id="readyProfile" style="display: none;">ready your profile</a></p>
+        </div>
+      </div>
+    </div>
+    <%- include('footer.ejs') %>
+  </body>
+  <script src="../js/register.js"></script>
+</html>

@@ -1,0 +1,40 @@
+.links {
+    width: 100%;
+    background: #18171d;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    box-sizing: border-box;
+    padding-left: 30px;
+    border-bottom: 1px solid #42445a;
+    padding-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+
+  }
+  .links span {
+    margin-left: 0px;
+    width: 150px;
+    font-family: "PT Sans", sans-serif;
+    color: #5a6776;
+    line-height: 30px;
+  }
+  .links span h5 {
+    background-color: #16a5ff;
+    font-size: 12px;
+    color: white;
+    border-radius: 20px;
+    display: inline;
+    padding: 3px;
+  }
+  .author {
+    width: 100%;
+    background: #18171d;
+    color: #5a6776;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .author span {
+    color: white;
+  }
+  

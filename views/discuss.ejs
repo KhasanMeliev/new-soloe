@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Discuss | Sololearn</title>
+    <link rel = "icon" href = 
+    "https://blob.sololearn.com/avatars/sololearn.png" 
+            type = "image/x-icon">
+    <link rel="stylesheet" href="../css/media.css" />
+    <link rel="stylesheet" href="../css/navbar.css" />
+    <link rel="stylesheet" href="../css/discuss.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <%- include('navbar.ejs') %>
+    <div class="discuss">
+      <div class="discuss_box">
+        <div class="uppart">
+          <p>Q&A Discussions</p>
+          <div class="btn_search">
+            <button id="question_btn">NEW QUESTION</button>
+            <div class="searchandicon">
+              <input
+                type="search"
+                name="search"
+                id="search"
+                placeholder="   Search..."
+              />
+              <i class="fa fa-search"></i>
+            </div>
+          </div>
+          <div class="discuss_buttons">
+            <button>Trending</button>
+            <button>Most Recent</button>
+            <button>Unanswered</button>
+            <button>My Questions</button>
+            <button>My Answers</button>
+          </div>
+          <div class="buttons_range">
+            <select name="discuss" id="discuss_range">
+              <option value="trending">Trending</option>
+              <option value="mostrecent">Most Recent</option>
+              <option value="unanswered">Unanswered</option>
+              <option value="myquestions">My Questions</option>
+              <option value="myanswers">My Answers</option>
+            </select>
+            </div>
+        </div>
+        <div id="trending_discusses">
+        <!--TRENDING CODES IN JAVASCRIPT-->
+      </div>
+      </div>
+      
+      <div id="hot_today_box">
+            <p>what is ejs</p>
+            <p>why my code isn't working</p>
+            <p>python code</p>
+            <p>javascript object</p>
+            <p>block account</p>
+            <p>what is array[0]</p>
+            <p>css font-size</p>
+            <p>js null==undefined?</p>
+            <p>js object isn't showing</p>
+            <p>html marquee</p>
+      </div>
+    </div>
+    <%- include('footer.ejs') %>
+  </body>
+  <script src="../js/discuss.js"></script>
+
+</html>

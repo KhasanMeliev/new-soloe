@@ -1,0 +1,134 @@
+.blog_page {
+  width: 100%;
+  /* height: calc(100vh - var(--navbar-height)); */
+  background-color: #1f1e28;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+
+}
+.blog_page h1 {
+  color: white;
+  font-size: 40px;
+}
+.blog_buttons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.blog_page .blog_buttons button {
+  width: 200px;
+  height: 40px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+.blog_buttons button:hover{
+    border: 3px solid #fff;
+}
+.btn1 {
+  background-color: #72b749;
+  border: 3px solid #fff;
+}
+.btn2 {
+  background-color: #57b99e;
+  border: none;
+}
+.btn3 {
+  background-color: #df6c38;
+  border: none;
+}
+.btn4 {
+  background-color: #44ace4;
+  border: none;
+}
+.btn5 {
+  background-color: #efa265;
+  border: none;
+}
+.blog_boxes{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.blog_boxes .box{
+    width: 340px;
+    height: 340px;
+    background-color:#272630;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px 2px #272630;
+    margin: 10px;
+}
+
+.blog_boxes .box img{
+    width: 340px;
+}
+.small_texts{
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+}
+.small_texts p{
+    color: rgb(9, 230, 9);
+    font-size: 15px;
+}
+.small_texts .read{
+    color: white;
+    margin: 0px 5px;
+}
+.text p{
+    color: white;
+    font-size: 20px;
+    margin: 15px;
+    text-align: center;
+}
+
+.btn button {
+    padding: 0.8em 1.8em;
+    border: 2px solid #fff;
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: .3s;
+    z-index: 1;
+    font-family: inherit;
+    color: #fff;
+    cursor: pointer;
+   }
+   
+   .btn button::before {
+    content: '';
+    width: 0;
+    height: 300%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: #fff;
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+   }
+   
+   .btn button:hover::before {
+    width: 105%;
+   }
+   
+   .btn button:hover {
+    color: #111;
+   }
+   

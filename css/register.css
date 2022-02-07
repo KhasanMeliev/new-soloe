@@ -1,0 +1,10 @@
+.register_page {
+    width: 100%;
+    height: calc(130vh - var(--navbar-height));
+    background-color: #272630;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+  }

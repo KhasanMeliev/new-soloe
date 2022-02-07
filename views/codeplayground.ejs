@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Code Playground | Sololearn </title>
+    <link rel = "icon" href = 
+    "https://blob.sololearn.com/avatars/sololearn.png" 
+            type = "image/x-icon">
+    <script src="../js/codeplayground.js"></script>
+    <link rel="stylesheet" href="../css/media.css" />
+    <link rel="stylesheet" href="../css/navbar.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <%- include('navbar.ejs') %>
+    <div class="codep">
+      <div class="codep_box">
+        <div class="uppart">
+          <p>Code Playground</p>
+          <div class="btn_search">
+            <button>NEW CODE</button>
+            <div class="search">
+              <input type="text" placeholder="   Search" />
+              <a href="#"><i class="fa fa-search"></i></a>
+            </div>
+          </div>
+          <div class="others">
+            <div class="buttons">
+              <button>Trending</button>
+              <button>Most Recent</button>
+              <button>Most Popular</button>
+              <button>My Codes</button>
+            </div>
+            <div class="buttons_range">
+              <select name="codes" id="codes_range">
+                <option value="">Trending</option>
+                <option value="mostrecent">Most Recent</option>
+                <option value="mostpopular">Most Popular</option>
+                <option value="mycodes">My Codes</option>
+              </select>
+            </div>
+            <div class="show">
+              <p>Show:</p>
+              <select name="codes" id="codes">
+                <option value="all">All</option>
+                <option value="web">web</option>
+                <option value="opel">cpp</option>
+                <option value="audi">c</option>
+                <option value="all">cs</option>
+                <option value="web">java</option>
+                <option value="opel">py</option>
+                <option value="audi">php</option>
+                <option value="all">rb</option>
+                <option value="web">kt</option>
+                <option value="opel">swift</option>
+                <option value="all">node</option>
+                <option value="web">go</option>
+                <option value="opel">r</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div id="trending_codes"><!--JavaScript page--></div>
+        <div class="other_pages">
+          <button style="background-color: #0ef3e8">1</button>
+          <button>2</button>
+          <p>.....</p>
+        </div>
+      </div>
+      <div id="hot_today_box">
+        <p>amazing portfolio10</p>
+        <p>phone clone😂</p>
+        <p>funny joke🤣</p>
+        <p>sololearn clone😉</p>
+        <p>cat animation🤩</p>
+        <p>corona😤</p>
+        <p>sololearn is the best😎</p>
+        <p>Instagram clone😏</p>
+        <p>website🤗</p>
+        <p>facebook clone😮</p>
+      </div>
+    </div>
+    <%- include('footer.ejs') %>
+  </body>
+</html>

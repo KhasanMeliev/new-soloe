@@ -1,0 +1,353 @@
+@media only screen and (max-width: 1340px) {
+  .codep {
+    flex-direction: column;
+  }
+  .codep .codep_box {
+    width: 80%;
+  }
+  .codep_box .uppart .btn_search button {
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+  }
+  .codep .uppart .btn_search .search input {
+    width: 210px;
+    height: 30px;
+  }
+  .codep .uppart .btn_search .search a {
+    width: 30px;
+    height: 30px;
+  }
+  .codep_box .others .buttons {
+    display: none;
+  }
+  .codep_box .others .buttons_range {
+    display: block;
+  }
+  .codep #hot_today_box {
+    width: 80%;
+  }
+  .discuss {
+    flex-direction: column;
+  }
+  .discuss_box {
+    width: 70%;
+  }
+  .discuss_box .uppart {
+    height: calc(var(--discuss-uppart-box) + 100px);
+  }
+  .discuss_box .uppart p {
+    font-size: 20px;
+  }
+  .discuss_box .uppart .btn_search #question_btn {
+    width: 110px;
+    font-size: 10px;
+    height: 30px;
+  }
+  .discuss_box .uppart .btn_search .searchandicon input {
+    width: 160px;
+    height: 30px;
+  }
+  .discuss_box .uppart .btn_search .searchandicon i {
+    width: 30px;
+    height: 30px;
+  }
+  .discuss_box .uppart .discuss_buttons {
+    display: none;
+  }
+  #discuss_range {
+    display: block;
+  }
+
+  #box #vote_ans p {
+    font-size: 16px;
+  }
+  #box #texts p {
+    font-size: 20px;
+  }
+  #box #texts button {
+    width: 70px;
+    height: 25px;
+    font-size: 14px;
+  }
+  #box #profile p {
+    font-size: 17px;
+  }
+  #box #profile img {
+    width: 50px;
+  }
+  .discuss #hot_today_box {
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 1050px) {
+  .menu {
+    display: none;
+    position: absolute;
+    background-color: #1f1e28;
+    right: 0;
+    left: 0;
+    text-align: center;
+    padding: 16px 0;
+  }
+  .menu li:hover {
+    display: inline-block;
+    background-color: #fff;
+    transition: 0.3s ease;
+  }
+  .menu li + li {
+    margin-top: 12px;
+  }
+  #checkbox_toggle:checked ~ .menu {
+    display: block;
+  }
+  .hamburger {
+    display: block;
+  }
+  .login_register button {
+    margin: 10px;
+  }
+   .courses{
+    display: none;
+  }
+  .courses_page .courses{
+    display: block;
+    display: flex;
+  }
+   
+}
+@media only screen and (max-width: 1024px) {
+  .home_page .texts h1 {
+    color: white;
+    text-align: center;
+    font-size: 48px;
+  }
+  .home_page .texts p {
+    color: #c8d2db;
+    text-align: center;
+    font-size: 16px;
+  }
+  .home_page .buttons .sln {
+    width: 280px;
+    height: 46px;
+  }
+  .home_page .lines .line1,
+  .line2 {
+    width: 120px;
+    height: 4px;
+  }
+
+  .home_page .down_buttons button {
+    width: 127px;
+    height: 38px;
+  }
+  .home_page .courses{
+    display: none;
+  }
+}
+@media only screen and (max-width: 777px) {
+  .section4 h3 {
+    font-size: 20px;
+  }
+  .section4 h1 {
+    font-size: 25px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .box h1 {
+    font-size: 30px;
+  }
+  .form label {
+    font-size: 16px;
+  }
+  .form input {
+    width: 200px;
+    height: 30px;
+  }
+  .form button {
+    width: 200px;
+    height: 35px;
+  }
+  .box .buttons button {
+    width: 100px;
+    font-size: 15px;
+  }
+  .box .buttons button i {
+    width: 15px;
+    height: 15px;
+  }
+  .box .lines .line1,
+  .line2 {
+    width: 80px;
+  }
+  .box .texts p,
+  .txt2 {
+    font-size: 15px;
+  }
+  .discuss_box .uppart .btn_search #question_btn {
+    width: 70px;
+    font-size: 8px;
+    height: 20px;
+  }
+  .discuss_box .uppart .btn_search .searchandicon input {
+    width: 110px;
+    height: 20px;
+  }
+  .discuss_box .uppart .btn_search .searchandicon i {
+    width: 20px;
+    height: 20px;
+  }
+  .discuss #hot_today_box p {
+    font-size: 25px;
+    margin: 10px;
+  }
+  .codep_box .uppart .btn_search button {
+    width: 70px;
+    height: 25px;
+    font-size: 8px;
+  }
+  .codep .uppart .btn_search .search input {
+    width: 160px;
+    height: 25px;
+  }
+  .codep .uppart .btn_search .search a {
+    width: 25px;
+    height: 25px;
+  }
+  .codep_box .others .buttons {
+    display: none;
+  }
+  .codep_box .others .buttons_range {
+    display: block;
+  }
+  .codep_box .others .buttons_range select {
+    width: 90px;
+    height: 20px;
+  }
+  .codep #hot_today_box {
+    width: 70%;
+  }
+  .codep_box .uppart .others .show select {
+    height: 25px;
+    width: 40px;
+  }
+  .codep_box .uppart .others .show p {
+    font-size: 15px;
+  }
+  .codep_box .uppart p {
+    font-size: 20px;
+  }
+  .codep_box .uppart .others {
+    margin-left: -50px;
+  }
+}
+@media only screen and (max-width: 590px) {
+  .profile_page .profile {
+    flex-direction: column;
+  }
+  .profile .img {
+    width: 100%;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+  }
+  .profile .img img {
+    width: 100px;
+  }
+  .profile .texts {
+    width: 100%;
+    height: 130px;
+    align-items: center;
+    justify-content: center;
+  }
+  .profile .texts .other {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #profile_name {
+    font-size: 20px;
+  }
+  .follow {
+    font-size: 15px;
+  }
+  .xp i {
+    font-size: 20px;
+  }
+  .xp p {
+    font-size: 15x;
+  }
+
+  .country img {
+    height: 15px;
+  }
+  .country p {
+    font-size: 15px;
+  }
+  #box #vote_ans p {
+    font-size: 12px;
+  }
+  #box #texts p {
+    font-size: 16px;
+  }
+  #box #texts button {
+    width: 50px;
+    height: 20px;
+    font-size: 10px;
+  }
+  #box #profile p {
+    font-size: 12px;
+  }
+  #box #profile img {
+    width: 30px;
+  }
+  .codep #hot_today_box p {
+    font-size: 30px;
+    margin: 10px;
+  }
+}
+@media only screen and (max-width: 312px) {
+  .profile .follow {
+    font-size: 12px;
+  }
+  .discuss #hot_today_box p {
+    font-size: 20px;
+    margin: 10px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  #box #vote_ans p {
+    font-size: 8px;
+  }
+  #box #texts p {
+    font-size: 13px;
+  }
+  #box #texts button {
+    width: 40px;
+    height: 15px;
+    font-size: 6px;
+  }
+  #box #profile p {
+    font-size: 10px;
+  }
+  #box #profile img {
+    width: 20px;
+  }
+  .codep #hot_today_box p {
+    font-size: 15px;
+    margin: 10px;
+  }
+  .codep #trending_codes p{
+    font-size: 15px;
+  }
+  .codep #trending_codes #right p{
+     font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 424px) {
+  .codep #hot_today_box p {
+    font-size: 25px;
+    margin: 10px;
+  }
+}

@@ -1,0 +1,141 @@
+:root {
+  --discuss-box: 1150px;
+  --discuss-uppart-box: 230px;
+}
+.discuss {
+  width: 100%;
+  /* height: calc(100vh - var(--navbar-height)); */
+  background-color: #272630;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  font-family: 'Roboto', sans-serif;
+
+}
+.discuss_box {
+  width: 60%;
+  height: var(--discuss-box);
+  background-color: #1f1e28;
+  display: flex;
+  flex-direction: column;
+  margin: 50px 0px;
+}
+#hot_today_box {
+  width: 30%;
+  height: 650px;
+  background-color: #1f1e28;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.discuss_box .uppart {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 100%;
+  height: var(--discuss-uppart-box);
+}
+.discuss_box .uppart p {
+  font-size: 30px;
+}
+#question_btn {
+  width: 160px;
+  height: 40px;
+  font-size: 16px;
+}
+.searchandicon {
+  display: flex;
+  /* margin: 10px; */
+}
+.searchandicon input {
+  width: 300px;
+  height: 40px;
+}
+.searchandicon i {
+  width: 40px;
+  height: 40px;
+  background-color: rgb(10, 224, 214);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 16px;
+}
+.discuss_buttons {
+  margin: 20px;
+}
+.discuss_buttons button {
+  width: 130px;
+  height: 40px;
+  background-color: rgb(10, 224, 214);
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-family: cursive;
+  font-size: 18px;
+  cursor: pointer;
+}
+#trending_discusses{
+  width: 100%;
+  height: calc(var(--discuss-box) - var(--discuss-uppart-box));
+  display: flex;
+  flex-direction: column;
+}
+#trending_discusses #box{
+    width: 100%;
+    height: 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#box #vote_ans{
+    display: flex;
+}
+#vote_ans p{
+    color: white;
+    font-size: 25px;
+    margin: 10px;
+}
+#vote_ans #vote_text,#vote_ans #ans_text{
+    font-size: 17px;
+    text-align: center;
+}
+#box #profile img{
+    width: 60px;
+    border-radius: 50%;
+}
+#texts{
+    display: flex;
+    flex-direction: column;
+}
+#texts p{
+    color: white;
+    font-size: 30px;
+}
+#texts button{
+    width: 90px;
+    height: 25px;
+    background-color: rgb(10, 224, 214);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+#profile{
+    display: flex;
+}
+#profile #name_date p{
+    color: white;
+    font-size: 20px;
+}
+
+#discuss_range{
+    background-color: rgb(10, 224, 214);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    display: none;
+}

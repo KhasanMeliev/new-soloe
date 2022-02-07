@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile | Sololearn</title>
+    <link rel = "icon" href = 
+    "https://blob.sololearn.com/avatars/sololearn.png" 
+            type = "image/x-icon">
+    <link rel="stylesheet" href="../css/media.css" />
+    <link rel="stylesheet" href="../css/profile.css" />
+    <link rel="stylesheet" href="../css/navbar.css" />
+    <script src="../js/register.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <%- include('navbar.ejs') %>
+    <div class="profile_page">
+      <div class="profile">
+        <div class="img">
+          <img
+            src="https://api.sololearn.com/Uploads/Avatars/24698460.jpg"
+            alt="pic"
+          />
+        </div>
+        <div class="texts">
+          <div class="other">
+            <p id="profile_name">Khasan</p>
+            <div class="follow">
+              <p>0 Following</p>
+              <p style="margin: 0px 15px">0 Followers</p>
+            </div>
+            <div class="xp">
+              <i class="fa fa-star"></i>
+              <p>10 XP</p>
+            </div>
+            <div class="country">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Flag_of_Uzbekistan.png/1200px-Flag_of_Uzbekistan.png"
+                alt=""
+              />
+              <p>Uzbekistan &bull; Lvl 1</p>
+            </div>
+          </div>
+        </div>
+      </div>
+     
+   
+    </div>
+    <%- include('footer.ejs') %>
+  </body>
+</html>
