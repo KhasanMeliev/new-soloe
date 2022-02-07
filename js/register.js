@@ -4,7 +4,7 @@ function submit() {
   var pass = document.getElementById("password").value;
   if (email == "" || email == null || email < 5) {
     document.getElementById("output").innerHTML =
-      "email isn't blank or you forgot @ symbol or less than 5";
+    "email isn't blank or you forgot @ symbol or less than 5";
     return false;
   } 
   else if (name1 == "" || name1 == null || name1 < 3) {

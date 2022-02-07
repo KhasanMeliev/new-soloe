@@ -92,7 +92,7 @@
   }
   .menu li:hover {
     display: inline-block;
-    background-color: #fff;
+    background-color: #51505c;
     transition: 0.3s ease;
   }
   .menu li + li {
@@ -107,14 +107,13 @@
   .login_register button {
     margin: 10px;
   }
-   .courses{
+  .courses {
     display: none;
   }
-  .courses_page .courses{
+  .courses_page .courses {
     display: block;
     display: flex;
   }
-   
 }
 @media only screen and (max-width: 1024px) {
   .home_page .texts h1 {
@@ -141,7 +140,7 @@
     width: 127px;
     height: 38px;
   }
-  .home_page .courses{
+  .home_page .courses {
     display: none;
   }
 }
@@ -337,11 +336,11 @@
     font-size: 15px;
     margin: 10px;
   }
-  .codep #trending_codes p{
+  .codep #trending_codes p {
     font-size: 15px;
   }
-  .codep #trending_codes #right p{
-     font-size: 15px;
+  .codep #trending_codes #right p {
+    font-size: 15px;
   }
 }
 
