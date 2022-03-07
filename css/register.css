@@ -1,6 +1,6 @@
 .register_page {
     width: 100%;
-    height: calc(130vh - var(--navbar-height));
+    height: calc(105vh - var(--navbar-height));
     background-color: #272630;
     display: flex;
     align-items: center;
